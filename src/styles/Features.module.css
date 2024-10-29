@@ -1,0 +1,52 @@
+/* src/styles/Features.module.css */
+.features {
+  padding: 60px 20px;
+  background-color: #222;
+  color: #e0e0e0;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.heading {
+  font-size: 2.5em;
+  font-family: 'Cinzel', serif;
+  color: #ff4081;
+  margin-bottom: 40px;
+}
+
+.featureList {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.feature {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 20px;
+  max-width: 300px;
+  transition: transform 0.3s, box-shadow 0.3s;
+
+}
+
+.feature:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(255, 64, 129, 0.5)
+}
+
+.image {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.title {
+  font-size: 1.8em;
+  color: #ff4081;
+}
+
+.description {
+  font-size: 1.1em;
+  color: #dcdcdc;
+}

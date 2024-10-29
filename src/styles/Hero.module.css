@@ -1,0 +1,47 @@
+/* src/styles/Hero.module.css */
+.hero {
+  background-image: url('/images/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #e0e0e0;
+  padding: 200px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: inset 0px 0px 40px rgba(0, 0, 0, 0.8);
+}
+
+.content {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.title {
+  font-size: 3em;
+  font-family: 'Cinzel', serif;
+  color: #ff4081;
+}
+
+.description { /* Menambahkan kelas untuk p */
+  font-size: 1.2em;
+  color: #dcdcdc;
+}
+
+.button {
+  padding: 15px 30px;
+  font-size: 1em;
+  color: #ffffff;
+  background-color: #333;
+  border: 1px solid #ff4081;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-top: 20px;
+}
+
+.button:hover {
+  background-color: #ff4081;
+}

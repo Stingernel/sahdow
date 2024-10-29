@@ -1,0 +1,62 @@
+/* src/styles/Footer.module.css */
+.footer {
+  background-color: #111;
+  color: #e0e0e0;
+  padding: 40px 20px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 2.5em;
+  font-family: 'Cinzel', serif;
+  color: #ff4081;
+  margin-bottom: 15px;
+}
+
+.description {
+  font-size: 1.2em;
+  margin-bottom: 25px;
+}
+
+.links {
+  margin-bottom: 20px;
+}
+
+.link {
+  margin: 0 15px;
+  color: #dcdcdc;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.link:hover {
+  color: #ff4081;
+}
+
+.socialIcons {
+  margin: 20px 0;
+}
+
+.icon {
+  font-size: 2em;
+  margin: 0 10px;
+  color: #dcdcdc;
+  transition: color 0.3s;
+}
+
+.icon:hover {
+  color: #ff4081;
+}
+
+.copyRight {
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #aaa;
+}
